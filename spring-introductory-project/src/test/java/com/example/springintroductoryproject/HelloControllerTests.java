@@ -12,10 +12,4 @@ public class HelloControllerTests {
         assertEquals(2,calculation.add(1,1));
 
     }
-    @Test
-    void onePlusOneShouldGiveThree() {
-        var calculation = new HelloController();
-        assertEquals(3,calculation.add(1,1));
-
-    }
 }
