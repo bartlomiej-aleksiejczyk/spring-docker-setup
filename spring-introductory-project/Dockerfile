@@ -1,7 +1,7 @@
 
 FROM openjdk:17-alpine
 WORKDIR /app/spring-introductory-project
-
+RUN apk add --no-cache maven
 #Debug
 COPY . /app/spring-introductory-project
 #EndDebug
